@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+  transition: background-image 0.5s ;
+  background-image: url(image/dark-theme-foggy-mountains-full-moon-drsp0bosfotvrzxa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+body .container{
+  width: 100%;
+  padding: 1rem;
+
+}
+
+.darkMode-button{
+    width: 140px;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 50px;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #212121;
+    margin-bottom: 5rem;
+
+}
+.white-circle{
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    align-self: center;
+    transition: transform .5s;
+    will-change: transform;
+
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.mystyle{
+    /* background-color: black; */
+    color: white;
+    transition: background-image 0.5s;
+    background-image: url(image/photo-1602688095571-20df01a106cd.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.move-circle{
+    transform: translateX(calc(100% + 15px));
+
+}
